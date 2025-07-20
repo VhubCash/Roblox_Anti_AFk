@@ -1,76 +1,81 @@
-# 🕹️ Roblox Anti-AFK Macro
+<p align="center">
+  <img src="https://img.shields.io/badge/Anti--AFK-Roblox-blueviolet?style=for-the-badge&logo=python&logoColor=white" alt="Anti-AFK">
+</p>
 
-> 🎮 Un macro recorder/reproductor para Roblox (y cualquier otra app/juego) que **no lee memoria, no inyecta código, y no interactúa directamente con Roblox**. 100% seguro y legal: simplemente simula tus movimientos y teclas como lo haría un teclado o mouse normal.
+<h1 align="center">🕹️ Roblox Anti-AFK Macro</h1>
+<p align="center">Una alternativa segura y legal para evitar el AFK en Roblox sin inyectar ni leer memoria</p>
 
 ---
 
 ## 🚀 Características
 
-- 🎥 Graba movimientos del mouse, clics, scroll y teclas.
-- 🔁 Reproduce automáticamente las acciones grabadas.
-- 🔂 Soporte para repeticiones infinitas o limitadas.
-- 🔑 Control completo por teclado:
-  - `F8` → Iniciar grabación
-  - `F9` → Detener grabación
-  - `F10` → Reproducir macro
-  - `F11` → Configurar repeticiones
-  - `F12` → Salir del programa
-- 🧠 Basado en `pynput`, sin inyecciones ni acceso a la memoria.
-- 🌈 Consola a color con `colorama` para mejor experiencia visual.
+✅ Graba movimientos del mouse, clics, scroll y teclas  
+✅ Reproduce automáticamente las acciones grabadas  
+✅ Soporte para repeticiones infinitas o limitadas  
+✅ Control total con teclas rápidas  
+✅ No requiere permisos especiales ni interfiere con Roblox  
+✅ Ideal para tareas repetitivas en cualquier app o juego  
 
 ---
 
-## ✅ Legalidad
+## 🎮 Controles Rápidos
 
-Este programa **NO rompe los Términos de Servicio de Roblox**, ya que:
-- ❌ No se inyecta en el juego.
-- ❌ No interactúa con la memoria del juego.
-- ✅ Simplemente simula acciones como lo haría cualquier programa tipo AutoHotkey o TinyTask.
+| Tecla | Función                      |
+|:-----:|------------------------------|
+| `F8`  | 🎥 Iniciar grabación         |
+| `F9`  | 🛑 Detener grabación         |
+| `F10` | ▶ Reproducir acciones        |
+| `F11` | 🔁 Configurar repeticiones   |
+| `F12` | ❌ Salir del programa        |
 
 ---
 
-## 🧩 Requisitos
+## ⚙️ Instalación
 
-Instala las dependencias con:
+1. Asegúrate de tener Python instalado.
+2. Instala las dependencias necesarias:
 
 ```bash
 pip install pynput colorama
-🛠️ Uso
 Ejecuta el script:
 
 bash
 Copiar
 Editar
 python anti_afk.py
-Usa las teclas de control:
+🔐 Legalidad
+🛡️ Este programa no modifica, inyecta ni lee memoria de Roblox.
+🔁 Simplemente simula movimientos como lo haría TinyTask, AutoHotkey u otros macros legales.
+✅ Es completamente externo, lo que lo hace seguro y legal de usar.
 
-Graba una serie de acciones con F8 → F9
+🧠 ¿Para qué sirve?
+Evitar ser expulsado por inactividad (AFK)
 
-Reproduce con F10
+Automatizar tareas repetitivas
 
-Configura las repeticiones con F11
+Simular combos de teclado y mouse
 
-Sal del programa con F12
+Compatible con cualquier aplicación o juego, no solo Roblox
 
-🧠 Ejemplos de uso
-Evitar ser expulsado por inactividad en Roblox o cualquier otro juego.
+🧩 Dependencias
+pynput
 
-Automatizar tareas repetitivas como clicks, movimientos o combinaciones de teclas.
+colorama
 
-🔒 Advertencia
-Este script NO es un hack, pero su mal uso puede violar las normas de ciertos juegos. Úsalo bajo tu propia responsabilidad y siempre respetando las reglas de cada plataforma.
+Si lo deseas, puedes crear un archivo requirements.txt con:
 
-📄 Licencia
-Este proyecto es de código abierto y se publica bajo la MIT License.
-
-✨ Autor
-Creado por [Tu Nombre o Usuario de GitHub]
-¡Pull requests y mejoras son bienvenidas!
-
-yaml
+nginx
 Copiar
 Editar
+pynput
+colorama
+📄 Licencia
+Este proyecto se distribuye bajo la MIT License.
+Puedes modificarlo, compartirlo o adaptarlo con libertad, siempre que mantengas los créditos.
 
----
+✨ Autor
+Creado con 💻 y 🎮 por TuNombreAquí
 
-¿Quieres que te genere también el `requirements.txt`, el archivo LICENSE (MIT), o un ícono/imagen para tu
+¡Pull requests, estrellas ⭐ y forks son bienvenidos!
+
+<p align="center"><i>Disfruta de tu tiempo lejos del teclado sin preocupaciones 💤</i></p> ```
